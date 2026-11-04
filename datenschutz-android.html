@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Datenschutzerklärung – ChargeLog Portal für Android</title>
+<style>
+  :root {
+    --bg: #ffffff;
+    --text: #1d1d1f;
+    --muted: #6e6e73;
+    --accent: #0066cc;
+    --rule: #d2d2d7;
+    --todo-bg: #fff3bf;
+    --todo-text: #5c4400;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #000000;
+      --text: #f5f5f7;
+      --muted: #a1a1a6;
+      --accent: #2997ff;
+      --rule: #424245;
+      --todo-bg: #4a3b00;
+      --todo-text: #ffe58a;
+    }
+  }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font: 17px/1.55 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, sans-serif;
+  }
+  main {
+    max-width: 44rem;
+    margin: 0 auto;
+    padding: 3rem 16px 4rem;
+  }
+  h1 { font-size: 2rem; line-height: 1.2; margin: 0 0 .5rem; }
+  h2 { font-size: 1.25rem; margin: 2.25rem 0 .5rem; padding-top: 1.25rem; border-top: 1px solid var(--rule); }
+  p, ul { margin: .6rem 0; }
+  li { margin: .35rem 0; }
+  a { color: var(--accent); }
+  .meta { color: var(--muted); }
+  address { font-style: normal; }
+  /* Platzhalter: vor der Veröffentlichung ersetzen, sonst bleiben sie gelb markiert. */
+  .todo { background: var(--todo-bg); color: var(--todo-text); padding: 0 .25em; border-radius: 4px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Datenschutzerklärung – ChargeLog Portal für Android</h1>
+  <p class="meta">Stand: <span class="todo">[Datum der Veröffentlichung]</span></p>
+
+  <h2>1. Verantwortlicher</h2>
+  <address>
+    <span class="todo">[Vor- und Nachname bzw. Firma]</span><br>
+    <span class="todo">[Straße, Hausnummer]</span><br>
+    <span class="todo">[PLZ, Ort]</span><br>
+    E-Mail: <a href="mailto:info@chargelogportal.de">info@chargelogportal.de</a>
+  </address>
+
+  <h2>2. Das Wichtigste in Kürze</h2>
+  <ul>
+    <li>ChargeLog Portal speichert alle Daten <strong>nur auf deinem Gerät</strong>. Die App hat <strong>keine Internet-Berechtigung</strong> und kann technisch nichts übers Netz senden. Wir sehen deine Daten nicht.</li>
+    <li>Es gibt <strong>kein Benutzerkonto, keine Werbung, kein Tracking, keine Analyse-Werkzeuge</strong> und keine Drittanbieter-Bibliotheken, die Daten erheben.</li>
+    <li>Wir erhalten keine Daten von dir – außer du schickst uns selbst etwas (Abschnitt 6).</li>
+  </ul>
+
+  <h2>3. Welche Daten die App verarbeitet</h2>
+  <p>Auf deinem Gerät verarbeitet ChargeLog Portal die Daten, die du selbst importierst oder eingibst:</p>
+  <ul>
+    <li>Ladevorgänge aus Export-Dateien deiner Wallbox: Datum, Uhrzeit, Dauer, Energiemenge, RFID-Tag, Ladepunkt/Steckdose, Seriennummer der Wallbox;</li>
+    <li>von dir angelegte Fahrzeuge (Name, Kennzeichen, RFID-Tag, Farbe), Wallboxen (Name, Hersteller, Seriennummer, Farbe), Strompreise und Einstellungen (z. B. CO₂-Faktor, Backup-Intervall).</li>
+  </ul>
+  <p>Zweck ist allein die Auswertung deiner Ladevorgänge (Übersichten, Kosten, CO₂, Berichte). Importierte Dateien werden nur gelesen; Excel-Formeln werden nie ausgeführt.</p>
+
+  <h2>4. Backups, Umzug und Berichte</h2>
+  <ul>
+    <li><strong>Backups</strong> legt die App verschlüsselt (AES-256) im geschützten App-Speicher deines Geräts an. Der Schlüssel liegt im Android-Keystore und verlässt das Gerät nie. Die Daten sind von der automatischen Android-Sicherung (Google-Konto) <strong>ausgenommen</strong>.</li>
+    <li>Der <strong>Umzugsexport</strong> („Export für iOS“) erzeugt eine mit deinem Passwort verschlüsselte Datei (AES-256, PBKDF2). Wohin du sie überträgst, entscheidest du; das Passwort speichert die App nicht.</li>
+    <li><strong>PDF- und CSV-Berichte</strong> erzeugt die App auf dem Gerät. Wohin du sie weitergibst, entscheidest du über das Teilen-Menü bzw. die Dateiauswahl von Android.</li>
+  </ul>
+
+  <h2>5. App-Sperre</h2>
+  <p>Die optionale App-Sperre nutzt Fingerabdruck, Gesichtserkennung oder die Displaysperre deines Geräts. Die Prüfung übernimmt Android; ChargeLog Portal erhält <strong>keine biometrischen Daten</strong>, nur das Ergebnis „erfolgreich/nicht erfolgreich“.</p>
+
+  <h2>6. Kontakt und „Format melden“</h2>
+  <ul>
+    <li>Schreibst du uns eine E-Mail, verarbeiten wir deine E-Mail-Adresse und den Inhalt, um deine Anfrage zu beantworten (Art. 6 Abs. 1 lit. b bzw. f DSGVO). Wir löschen die Nachricht, wenn sie erledigt ist und keine Aufbewahrungspflicht besteht.</li>
+    <li><strong>„Format melden“</strong> erstellt eine Beschreibung einer nicht erkannten Datei, die du <strong>vor dem Versand vollständig siehst</strong> (erste zwei Zeilen lesbar, weitere maskiert, App- und Android-Version, deine freiwilligen Angaben). Die <strong>Originaldatei</strong> hängt nur an, wenn du das ausdrücklich einschaltest; sie kann echte Daten wie RFID-Tags und Ladezeiten enthalten. Versendet wird über das Teilen-Menü bzw. dein Mail-Programm – erst, wenn du selbst sendest. Wir nutzen die Angaben nur, um das Format zu unterstützen, und löschen Originaldateien danach.</li>
+  </ul>
+
+  <h2>7. Google Play</h2>
+  <p>Beim Laden der App verarbeitet Google Daten (z. B. Google-Konto, Download- und Absturzinformationen nach deinen Geräteeinstellungen) in eigener Verantwortung. Google stellt uns ggf. zusammengefasste Statistiken bereit. <span class="todo">[prüfen, welche Play-Console-Statistiken genutzt werden.]</span></p>
+
+  <h2>8. Speicherdauer und Löschen</h2>
+  <p>Die Daten bleiben auf deinem Gerät, bis du sie löschst – einzeln, über „Alle Importe löschen“ bzw. „Alle Daten löschen“ in den Einstellungen oder durch Deinstallieren der App (das entfernt auch die Backups). Vor dem Löschen in der App entsteht eine Sicherheitskopie im App-Speicher; sie verschwindet mit der Deinstallation.</p>
+
+  <h2>9. Deine Rechte</h2>
+  <p>Soweit wir personenbezogene Daten von dir verarbeiten (nur bei Kontakt, Abschnitt 6), hast du das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung, Datenübertragbarkeit und Widerspruch (Art. 15–21 DSGVO) sowie auf Beschwerde bei einer Datenschutz-Aufsichtsbehörde. <span class="todo">[ggf. zuständige Landesbehörde nennen.]</span></p>
+
+  <h2>10. Änderungen</h2>
+  <p>Wir passen diese Erklärung an, wenn sich die App ändert. Die aktuelle Fassung findest du unter <a href="https://topper9.github.io/chargelog_ios/datenschutz-android.html">https://topper9.github.io/chargelog_ios/datenschutz-android.html</a>.</p>
+</main>
+</body>
+</html>
